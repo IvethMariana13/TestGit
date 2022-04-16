@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title> Calculadora Basica </title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="calculadora.css" />
+	<body>
+		<h1> Calculadora </h1>
+		<form method="POST" action="calculadora.php">
+		<select name="operaciones">
+		<option value="suma"> Suma </option>
+		<option value="resta"> Resta </option>
+		<option value="Division"> Divisi&oacute;n </option>
+		<option value="Multiplicacion">Multiplicaci&oacute;n </option>
+		</select>
+		</br>
+		<p>
+			<label for="numero1"> Valor 1 </label>
+		    <input type="text" placeholder="introduzca un numero" name="valor1" id="valor1" value="" />
+			</p>
+			<p>
+			<label for="numero1"> Valor 1 </label>
+			<input type="text" placeholder="introduzca un numero" name="valor2" id="valor2" value="" />
+			</p>
+			<p>
+				<button>Realizar Operaci&oacute;n</button>
+			</p>
+		</form>
+	</body>
+</html>
